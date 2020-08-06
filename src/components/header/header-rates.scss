@@ -1,0 +1,42 @@
+@import '../../styles/variables.scss';
+
+.page-header__exchange-rates {
+    display: none;
+}
+
+@media (min-width: $tablet-width) {
+
+    .page-header__exchange-rates {
+        display: block;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        position: absolute;
+        right: 10px;
+        top: 15px;
+
+        p{
+            height: 20px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-size: 18px;
+            opacity: 1;
+
+            &:last-child {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+}
+
+@media (min-width: $desktop-width) {
+    .page-header__exchange-rates {
+        top: 25px;
+        
+        p{
+            font-size: 20px;
+        }
+    }
+
+}

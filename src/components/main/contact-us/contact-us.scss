@@ -1,0 +1,26 @@
+.textarea {
+    height: 100px; 
+    resize: none;
+}
+
+area {
+    display: flex;
+    height: 100px; 
+}
+
+.form__label-area {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-left: 1.8rem;
+    margin-top: 0.7rem;
+    display: block;
+    transition: all 0.3s;
+    transform: translateY(-9.2rem);
+}
+
+.form__input:placeholder-shown + .form__label-area {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(-4rem);
+    transform: translateY(-4rem);
+  }
