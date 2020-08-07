@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 5px 0px 5px 0px;
+    margin: 5px 0px 0px 0px;
     padding: 0;
 }
 
@@ -28,7 +28,7 @@
 @media (min-width: $tablet-width) {
     .footer_ul_link {
     
-        margin: 8px 0px 8px 0px;
+        margin: 8px 0px 0px 0px;
     }
     
     .footer__li_link {
@@ -37,14 +37,14 @@
 
     .footer__li_link  a {
         color: white;
-        font-size: 10px;
+        font-size: 9px;
     }
 
 }
 
 @media (min-width: $desktop-width) {
     .footer_ul_link {
-        margin: 10px 0px 10px 0px;
+        margin: 8px 0px 0px 0px;
     }
     
     .footer__li_link {
@@ -54,6 +54,6 @@
 
     .footer__li_link  a {
         color: white;
-        font-size: 13px;
+        font-size: 10px;
     }
 }
