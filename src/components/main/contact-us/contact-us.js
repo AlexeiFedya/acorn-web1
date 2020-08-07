@@ -35,7 +35,7 @@ const ContactUs = () => {
                         id="password" placeholder="Name" 
                         onChange={(e) => 
                             setName(
-                                // ...this.state,
+                                // ...this.state,апиа
                                 e.target.value.trim().toLowerCase()
                             )}/>
                     <label
